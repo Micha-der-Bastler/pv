@@ -1,0 +1,11 @@
+### Turn relay on
+GET http://{{host}}/relay/0?turn=on
+Accept: application/json
+
+### Turn relay off
+GET http://{{host}}/relay/0?turn=off
+Accept: application/json
+
+### Get all data
+GET http://{{host}}/status
+Accept: application/json
